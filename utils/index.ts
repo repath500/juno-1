@@ -16,11 +16,11 @@ export const OpenAIStream = async (messages: Message[]) => {
       messages: [
         {
           role: "system",
-          content: `You are a conversational helpful, friendly, assistant.`
+          content: `You are a conversational helpful, friendly, assistant called Juno built by OrionAI Labs.`
         },
         ...messages
       ],
-      max_tokens: 2700,
+      max_tokens: 2500,
       temperature: 0.0,
       stream: true
     })
