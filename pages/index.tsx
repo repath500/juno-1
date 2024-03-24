@@ -80,7 +80,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hi there! I'm Juno, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
       }
     ]);
   };
@@ -93,7 +93,7 @@ export default function Home() {
     setMessages([
       {
         role: "assistant",
-        content: `Hi there! I'm Chatbot UI, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
+        content: `Hi there! I'm Juno, an AI assistant. I can help you with things like answering questions, providing information, and helping with tasks. How can I help you?`
       }
     ]);
   }, []);
@@ -104,7 +104,7 @@ export default function Home() {
         <title>Chatbot UI</title>
         <meta
           name="description"
-          content="A simple chatbot starter kit for OpenAI's chat model using Next.js, TypeScript, and Tailwind CSS."
+          content="A simple chatbot starter kit for OrionAI's chat model using Next.js, TypeScript, and Tailwind CSS."
         />
         <meta
           name="viewport"
