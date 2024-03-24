@@ -1,5 +1,5 @@
 export enum OpenAIModel {
-  DAVINCI_TURBO = "llama2-70b-4096"
+  DAVINCI_TURBO = "gemma-7b-it"
 }
 
 export interface Message {
